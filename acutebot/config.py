@@ -1,5 +1,6 @@
 import sys
 import os
+import Config
 
 ENV = bool(os.environ.get("ENV", False))
 TOKEN = os.environ.get("TOKEN")
