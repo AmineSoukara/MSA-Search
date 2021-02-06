@@ -4,7 +4,6 @@ from telegram.ext import Updater, Defaults
 from telegram import ChatAction, ParseMode
 from acutebot.config import Config
 
-
 TOKEN = Config.TOKEN
 WORKERS = Config.WORKERS
 TMDBAPI = Config.TMDBAPI
