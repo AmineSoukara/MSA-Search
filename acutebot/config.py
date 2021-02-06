@@ -1,7 +1,7 @@
 TOKEN = "1669267094:AAEuI84SHn7qhYSILyCSePpBXolaMM_ffd4"
 WORKERS = 8
 TMDBAPI = "32aee9e12d269ed374ce682cd6a022d0"
-DB_URI = mongodb+srv://gwenstephanie:need4speed@cluster0-4tpcj.mongodb.net/test?retryWrites=true&w=majority
+DB_URI = "mongodb+srv://gwenstephanie:need4speed@cluster0-4tpcj.mongodb.net/test?retryWrites=true&w=majority"
 GENIUS = P5W9LglHPgaJAQGWg1ncmK6VIUsxIRObX8wK6Bva9HSEPUHcP7ZXTkUiQBMTA9U5
 SPT_CLIENT_SECRET = 165ee510b14943cbbad2c425fed91915
 SPT_CLIENT_ID = 4e07ff70f566499fa39d5f1b35b3e909
