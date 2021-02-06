@@ -30,7 +30,7 @@ MUSICDICT = {}
 
 if ARLTOKEN is not None:
     try:
-        download = deezloader.Login(ARLTOKEN)
+        downloa = deezloader.Login(ARLTOKEN)
     except BadCredentials:
         print("Deezer token is dead :(")
 
