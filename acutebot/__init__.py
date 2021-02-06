@@ -45,7 +45,7 @@ else:
     SPT_CLIENT_SECRET = Config.SPT_CLIENT_SECRET
     SPT_CLIENT_ID = Config.SPT_CLIENT_ID
     DEBUG = Config.DEBUG
-    ARLTOKEN = Config.ARL
+    ARLTOKEN = Config.ARLTOKEN
     APP_URL = Config.APP_URL
     APIID = Config.APIID
     APIHASH = Config.APIHASH
