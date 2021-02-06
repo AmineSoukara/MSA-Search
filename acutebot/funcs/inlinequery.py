@@ -150,7 +150,7 @@ def inlinequery(update, context):
                 title="Usage: <movie> | <tv> | <anime>",
                 description="Example: <movie> Avengers endgame",
                 message_text=st.INLINE_DESC,
-                thumb_url="https://telegra.ph/file/8109bf8f6b27ce9b45ff1.jpg",
+                thumb_url="https://telegra.ph/file/47a7fb822017512f0ee65.jpg",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
