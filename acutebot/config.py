@@ -1,3 +1,5 @@
+from acutebot.config import Config
+
 TOKEN = "1669267094:AAEuI84SHn7qhYSILyCSePpBXolaMM_ffd4"
 WORKERS = 8
 TMDBAPI = "32aee9e12d269ed374ce682cd6a022d0"
