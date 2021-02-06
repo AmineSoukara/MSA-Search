@@ -12,3 +12,4 @@ ARLTOKEN = "69ad200d3632f1e831d34d0760b07e89d52458f00c17af358f996d1414807ccdb910
 APP_URL = "https://acuteflixbot.herokuapp.com/"
 APIID = "2354487"
 APIHASH = "70dc6e3737f76e580c38e781dcfc586d"
+ENV = "false"
