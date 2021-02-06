@@ -28,7 +28,7 @@ if ENV:
     SPT_CLIENT_SECRET = os.environ.get("SPT_CLIENT_SECRET")
     SPT_CLIENT_ID = os.environ.get("SPT_CLIENT_ID")
     DEBUG = bool(os.environ.get("DEBUG", False))
-    ARLTOKEN = os.environ.get("ARL")
+    ARLTOKEN = os.environ.get("ARLTOKEN")
     APP_URL = os.environ.get("APP_URL")
     APIID = os.environ.get("APIID")
     APIHASH = os.environ.get("APIHASH")
@@ -45,7 +45,7 @@ else:
     SPT_CLIENT_SECRET = Config.SPT_CLIENT_SECRET
     SPT_CLIENT_ID = Config.SPT_CLIENT_ID
     DEBUG = Config.DEBUG
-    ARLTOKEN = Config.ARL
+    ARLTOKEN = Config.ARLTOKEN
     APP_URL = Config.APP_URL
     APIID = Config.APIID
     APIHASH = Config.APIHASH
