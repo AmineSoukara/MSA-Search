@@ -1,3 +1,8 @@
+import sys
+import os
+
+from yarl import URL
+
 ENV = bool(os.environ.get("ENV", False))
 TOKEN = os.environ.get("TOKEN")
 WORKERS = int(os.environ.get("WORKERS", 8))
