@@ -18,7 +18,7 @@ class Config(object):
     SPT_CLIENT_SECRET = os.environ.get("SPT_CLIENT_SECRET")
     SPT_CLIENT_ID = os.environ.get("SPT_CLIENT_ID")
     DEBUG = bool(os.environ.get("DEBUG", False))
-    ARLTOKEN = int(os.environ.get("ARL", 69ad200d3632f1e831d34d0760b07e89d52458f00c17af358f996d1414807ccdb910883559efb0030a210dbe75a9c83124b8f71fb12e5dc0d3b3464e22555a8b30a6ca40b5462b63067fe46622fb678509c23cbd5fc76b7b32681eeb48386ed0))
+    ARLTOKEN = os.environ.get("ARL")
     APP_URL = os.environ.get("APP_URL")
     APIID = os.environ.get("APIID")
     APIHASH = os.environ.get("APIHASH")
