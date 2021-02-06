@@ -1,9 +1,3 @@
-import os, sys, logging
-from functools import wraps
-from telegram.ext import Updater, Defaults
-from telegram import ChatAction, ParseMode
-from acutebot.config import Config
-
 ENV = bool(os.environ.get("ENV", False))
 TOKEN = os.environ.get("TOKEN")
 WORKERS = int(os.environ.get("WORKERS", 8))
