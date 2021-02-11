@@ -30,7 +30,7 @@ MUSICDICT = {}
 
 if ARLTOKEN is not None:
     try:
-        downloa = deezloader.Login(ARLTOKEN)
+        X = deezloader.Login(ARLTOKEN)
     except BadCredentials:
         print("Deezer token is dead :(")
 
@@ -100,7 +100,7 @@ def sendmusic(update, context):
 
     try:
         context.bot.send_chat_action(chat.id, "upload_document")
-        file = downloa.download_name(
+        file = X.download_name(
             artist=artist,
             song=song,
             output="temp",
