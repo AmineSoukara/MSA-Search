@@ -32,7 +32,7 @@ from acutebot.helpers.parsedata import byname, currency, sort_caps
 from acutebot.helpers.keyboard import keyboard
 
 
-base_url = "https://api.themoviedb.org/3"
+base_url = "https://api.themoviedb.org/4"
 pic_url = "https://image.tmdb.org/t/p"
 
 
