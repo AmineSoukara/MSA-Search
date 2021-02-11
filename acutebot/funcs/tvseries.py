@@ -39,7 +39,7 @@ def tvdata(c_id):
     """
     Parse TV shows data for the id and return class obj
     """
-    payload = {"api_key": TMDBAPI, "language": "en-US", "append_to_response": "videos"}
+    payload = {"api_key": TMDBAPI, "language": "ar-MA", "append_to_response": "videos"}
 
     data = r.get(f"{base_url}/tv/{c_id}?", params=payload).json()
 
